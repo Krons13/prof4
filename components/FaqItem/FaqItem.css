@@ -1,0 +1,23 @@
+.faq-item {
+    position: relative;
+}
+.faq-answer {
+    display: none;
+}
+  
+.open {
+    display: block;
+    transition: opacity 0.3s ease-out;
+    animation: anim 0.5s;
+}
+
+@keyframes anim {
+    0% {
+        opacity: 0;
+        transform: translateX(-20%);
+    }
+    100% {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}

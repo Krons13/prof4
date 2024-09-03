@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: 'Helvetica'; 
+    src: url('../../fonts/Helvetica.otf');
+}
+@font-face {
+    font-family: 'Inter'; 
+    src: url('../../fonts/Inter.ttf');
+}
+
+input:focus, textarea:focus, select:focus {
+    outline: none;
+} 
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Helvetica";
+    color: #202020;
+    
+}
+  
+.container {
+    max-width: 1307px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.transition {
+    transition: .5s all ease;
+}
